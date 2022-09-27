@@ -17,6 +17,9 @@ def random_predict(number:int=1) -> int:
     
     start, end = 1, 101 # задаем переменные, отвечающие за границы поиска
     
+    # сужаем поиск в заивисимости от выброшенного случайного числа. 
+    # если выброшенное число меньше, заданного, то оно становится границей снизу,
+    # если больше, то сверху
     
     while True:
         count += 1
@@ -24,7 +27,7 @@ def random_predict(number:int=1) -> int:
         if number == predict_number:
             break # выход из цикла, если угадали
         if predict_number < number:
-            start = predict_number + 1 
+            start = predict_number + 1 #прибавляем 1, т.к. это число мы уже проверили
         if predict_number > number:
             end = predict_number
     return(count)
