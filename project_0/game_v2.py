@@ -27,7 +27,7 @@ def random_predict(number:int=1) -> int:
         if number == predict_number:
             break # выход из цикла, если угадали
         if predict_number < number:
-            start = predict_number + 1 #прибавляем 1, т.к. это число мы уже проверили
+            start = predict_number + 1 #прибавляем 1, т.к. выброшенное число мы уже проверили
         if predict_number > number:
             end = predict_number
     return(count)
