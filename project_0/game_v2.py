@@ -12,13 +12,21 @@ def random_predict(number:int=1) -> int:
         int: Число попыток
     """
 
+    
     count = 0
-
+    
+    start, end = 1, 101 # задаем переменные, отвечающие за границы поиска
+    
+    
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
+        predict_number = np.random.randint(start, end) # предполагаемое число
         if number == predict_number:
             break # выход из цикла, если угадали
+        if predict_number < number:
+            start = predict_number + 1 
+        if predict_number > number:
+            end = predict_number
     return(count)
 
 def score_game(random_predict) -> int:
