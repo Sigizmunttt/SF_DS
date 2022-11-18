@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+pandas/project_1/data_v.01.csv
+pandas/project_1/data.csv
+pandas/project_1/na_proverku/data.csv
