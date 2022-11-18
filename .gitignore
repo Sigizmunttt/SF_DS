@@ -129,4 +129,11 @@ dmypy.json
 .pyre/
 pandas/project_1/data_v.01.csv
 pandas/project_1/data.csv
+<<<<<<< HEAD
+<<<<<<< HEAD
 pandas/project_1/na_proverku/data.csv
+=======
+>>>>>>> 60d7f3e (123)
+=======
+pandas/project_1/na_proverku/data.csv
+>>>>>>> 3692fac (123)
