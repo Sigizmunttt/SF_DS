@@ -20,5 +20,6 @@ https://drive.google.com/file/d/1ESVykLTRMoE_6IdjwtDXcriFGNY4zScU/view?usp=share
 **Ссылка на графики на Github**     
 https://github.com/Sigizmunttt/SF_DS/tree/main/pandas/project_1/na_proverku/graphs
 
-**Ссылка на графики на GoogleDisk** 
+**Ссылка на графики на GoogleDisk**     
 https://drive.google.com/drive/folders/167zZPnN3ZUirY1i9vxg9fWHRHtHgP-ax?usp=share_link
+
